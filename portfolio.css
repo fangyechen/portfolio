@@ -1,0 +1,158 @@
+/* this is a css file. */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #CEDF9F;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family:  "Nerko One", cursive;
+    font-size: 2.5rem;
+    background-color: #CEDF9F;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 8rem;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8rem;
+    color: #0a5e24;
+}
+
+article img {
+    width: 300px;
+    height: 200px;
+    margin: 0 1rem 1rem 0;
+    border-radius: 1rem;
+}
+
+article {
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+article ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+article li {
+    padding: 0.5rem;
+}
+
+.about, .contact {
+    background-color: #F1F3C2;
+}
+
+.project {
+    background-color: #E8B86D;
+    text-align: center;
+}
+
+.project li {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+	font-size: 1.2rem;
+	border-radius: 10px;
+	border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+	height: 10rem;
+	padding: 1rem;
+}
+
+button {
+	background-color: blue;
+	color: white;
+	font-size: 1.2rem;
+	margin: 2rem 1rem;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    margin: 0;
+    padding:2rem 0;
+    text-align: center;
+    background-color: #CEDF9F;
+    color:#0a5e24;
+    font-family:  "Nerko One", cursive;
+    font-size: 1rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    background-color: #A1D6B2;
+    color:white;
+    padding: 2rem 0 1rem 0;
+}
+
+#viewer:hover, #form:hover, #calculator:hover {
+    background-color: orange;
+    padding:0 0;
+}

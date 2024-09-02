@@ -1,0 +1,58 @@
+body {
+    background-color: #AAB396;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: #674636;
+    text-align: center;
+    font-size:4rem;
+}
+
+.select-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.breeds {
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: #674636;
+    color:#FFF8E8;
+    width: 25%;
+    padding:1rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.doggos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+.spinner-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #F7EED3;
+    border-top: 10px solid #674636;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    display: none;
+}
+
+.show {
+    display:block;
+}

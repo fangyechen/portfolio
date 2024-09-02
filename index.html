@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fangye's Blog</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="portfolio.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#project">Project</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<h1>Fangye's Blog 💻</h1>
+			<p>Let's go for a fun journey together</p>
+		</header>
+		<section>
+			<article class="about" id="about">
+				<img src="/img-portfolio/road cycling.JPG" alt="cycling in Chile">
+				<h2>Something about me</h2>
+				<p>I live in a small village at Costa Brava.</p>
+				<p>I work as an Associate Engineer at TravelPerk.</p>
+				<p>I love creating fun content and styles on websites!</p>
+				<p>Inspired by Michelle Obama: <cite>“I am still in progress, and I hope that I always will be.”</cite></p><br>
+				<p>I enjoy cycling on a road bike.</p>
+				<p>Road cycling is a meditation on the road.</p> 
+				<p>You see me cycling within a national park in Northen Chile.</p>
+			</article>
+
+			<article class="project" id="project">
+				<h2>My Projects</h2>
+				<ul>
+					<li><a href="./project-Order Form/forms.html" id="form">Alien Abduction Order Form</a></li>
+					<li><a href="./project-Calculator/calculator.html" id="calculator">Static Calculator</a></li>
+					<li><a href="/project-Dog Viewer/dogviewer.html" id="viewer">Dog Viewer</a></li>
+				</ul>
+			</article>
+
+			<article class="contact" id="contact">
+				<h2>Contact Me</h2>
+				<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+					<!-- <input type="hidden" id="myhidden" name="send_to" value="fangye.chen@travelperk.com"> -->
+					<label for="name">Your name</label>
+						<input type="text" id="fullname" name="name">
+					<label for="phone">Phone number</label>
+					<input type=”tel” id=”phone” name=”phone”>
+					<label for="email">Email</label>
+						<input type=”email” id=”email” name=”email”>
+					<label>Special request</label>
+					<textarea id="comments" name="comments" placeholder="Tell me about your big idea" ></textarea>
+					<button type="submit">Submit</button>
+				</form>
+			</article>
+
+			
+		</section>
+		<footer>
+			<p>© Created for Allwomen Engineering Graduate Program ♥</p>
+		</footer>
+	</div>
+</body>
+</html>
